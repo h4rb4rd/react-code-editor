@@ -1,0 +1,5 @@
+.bar {
+  flex: 1;
+  border-left: 1px solid var(--background30);
+  background-color: var(--background20);
+}

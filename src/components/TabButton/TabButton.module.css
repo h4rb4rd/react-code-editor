@@ -6,7 +6,7 @@
   height: 50px;
   border-radius: 4px;
   background-color: var(--background30);
-  color: #fff;
+  color: var(--text);
   font-size: 15px;
   font-weight: 600;
   outline: none;

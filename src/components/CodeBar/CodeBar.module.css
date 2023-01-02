@@ -1,5 +1,6 @@
 .bar {
   position: relative;
+  height: 100%;
   width: 600px;
   color: var(--text);
   background-color: var(--background20);
