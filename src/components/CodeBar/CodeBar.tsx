@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
 import { EditorTabs } from '../../types/common';
+import CssEditor from '../CssEditor/CssEditor';
+import HtmlEditor from '../HtmlEditor';
+import JavascriptEditor from '../JsEditor/JsEditor';
 import TabButton from '../TabButton';
 
 import cl from './CodeBar.module.css';
@@ -22,9 +25,9 @@ const CodeBar = () => {
         </TabButton>
       </nav>
       <div className={cl.editor}>
-        {activeTab === EditorTabs.HTML && <div>html</div>}
-        {activeTab === EditorTabs.CSS && <div>css</div>}
-        {activeTab === EditorTabs.JS && <div>js</div>}
+        {activeTab === EditorTabs.HTML && <HtmlEditor />}
+        {activeTab === EditorTabs.CSS && <CssEditor />}
+        {activeTab === EditorTabs.JS && <JavascriptEditor />}
       </div>
     </div>
   );
