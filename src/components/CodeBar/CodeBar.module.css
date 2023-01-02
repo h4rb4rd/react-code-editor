@@ -1,0 +1,21 @@
+.bar {
+  position: relative;
+  width: 600px;
+  color: var(--text);
+  background-color: var(--background20);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 70px;
+  border-bottom: 2px solid var(--background30);
+  padding: 0 15px;
+}
+
+.editor {
+  height: calc(100% - 70px);
+  padding: 20px 8px;
+}

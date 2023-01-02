@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--background30);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+.active {
+  color: var(--background30);
+  background-color: var(--accent);
+}

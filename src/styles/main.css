@@ -22,3 +22,12 @@ body,
   display: flex;
   flex-direction: column;
 }
+
+:root {
+  --background20: #202020;
+  --background30: #303030;
+  --accent: #fff68a;
+  --disabled_text: #696969;
+  --text: #e0e0e0;
+  --border: #545454;
+}

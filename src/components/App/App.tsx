@@ -1,7 +1,12 @@
+import CodeBar from '../CodeBar';
 import { EditorProvider } from '../../context/EditorContext';
 
 function App() {
-  return <EditorProvider>app</EditorProvider>;
+  return (
+    <EditorProvider>
+      <CodeBar />
+    </EditorProvider>
+  );
 }
 
 export default App;
