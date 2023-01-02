@@ -1,7 +1,7 @@
-import cl from './App.module.css';
+import { EditorProvider } from '../../context/EditorContext';
 
 function App() {
-  return <div className={cl.app}>App</div>;
+  return <EditorProvider>app</EditorProvider>;
 }
 
 export default App;
